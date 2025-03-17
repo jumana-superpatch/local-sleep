@@ -1,0 +1,498 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/*header section */
+.navbar {
+    opacity: 85%;
+    z-index: 2;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    color: #343A40;
+}
+
+.info-banner {
+    background-color: #313030;
+    color: #fff;
+    padding: 12px;
+    position: relative;
+    z-index: 2;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/rem-hero-banner.png) no-repeat center center;
+    background-size: cover !important;
+    z-index: 1;
+}
+
+.header .superpatch-logo {
+    max-width: 50%;
+}
+
+.banner-text {
+    position: relative;
+    z-index: 2;
+    padding: 10rem 2rem;
+}
+
+#version-2 .banner {
+    background: url(../images/Sleep_patch_01.jpg) no-repeat center center;
+}
+
+#version-2 .banner-text {
+    padding: 15rem 0rem;
+    filter: drop-shadow(0px 2px 1px #111);
+}
+
+#version-2 .header .superpatch-logo {
+    height: 85%;
+    max-width: 50%;
+}
+
+/* rem patch section */
+.rem-patch-section .review .write-review {
+    color: #000000;
+}
+
+.rem-patch-section .rem-product {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 8 / 6;
+}
+
+.sleep-deeply {
+    font-weight: 400;
+}
+
+.price-per-pack .price {
+    font-weight: 500;
+}
+
+.quantity-input {
+    border-radius: 6px;
+    border: 1px solid #A7A5A5;
+}
+
+.quantity-btn,
+.quantity-btn:hover,
+.quantity-btn:active {
+    background-color: #D9D9D9 !important;
+    border-radius: 4px !important;
+    border: none;
+}
+
+.quantity {
+    text-align: center;
+    border: none;
+    margin: 0 5px;
+}
+
+.quantity:focus {
+    box-shadow: none;
+}
+
+#version-2 .rem-patch-section img {
+    border-radius: 15px;
+}
+
+/* about rem section */
+.good-sleep .woman-image {
+    background: url(../images/why-good-sleep-is-essential.png) no-repeat center center;
+    background-size: cover;
+}
+
+.choose-rem-patch .mother-daughter-image {
+    background: url(../images/mother-daughter.png) no-repeat center center;
+    background-size: cover;
+}
+
+.amazing-results .woman-image {
+    background: url(../images/amazing-results-with-rem-super-patch.png) no-repeat center center;
+    background-size: cover;
+}
+
+.affordable-effective .family-image {
+    background: url(../images/family.png) no-repeat center center;
+    background-size: cover;
+}
+
+.better-sleep-health .couple-image {
+    background: url(../images/couple.png) no-repeat center center;
+    background-size: cover;
+}
+
+.transforming-sleep .woman-vibrotactile-tech-image {
+    background: url(../images/woman-vibrotactile-tech.png) no-repeat center center;
+    background-size: cover;
+}
+
+.transform-life .family-image {
+    background: url(../images/family-02.png) no-repeat center center;
+    background-size: cover;
+}
+
+.no-risk .teammates-image {
+    background: url(../images/teammates.png) no-repeat center center;
+    background-size: cover;
+}
+
+.info-text {
+    padding: 8rem 4rem;
+}
+
+#version-2 .choose-rem-patch img {
+    border-radius: 15px;
+}
+
+/* jay glazer video section */
+.jay-glazer-video-section {
+    position: relative;
+    background: url(../images/cover-jay-no-copy.jpg) no-repeat top center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.jay-glazer-video-section .jay-glazer-video {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+.jay-glazer-video-section .jay-glazer-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.jay-glazer-video-section .video-container {
+    aspect-ratio: 16 / 9;
+}
+
+.jay-glazer-video-section #jayGlazerVideo {
+    cursor: pointer;
+}
+
+/* sleep deeply video section */
+.sleep-deeply-video-section {
+    background: url(../images/sleep-deeply.png) no-repeat center center;
+    background-size: cover;
+    padding: 10rem 0rem;
+}
+
+#sleepDeeplyVideo {
+    cursor: pointer;
+}
+
+/* customers review section */
+.customers-review-section h4 {
+    font-weight: 400;
+}
+
+.customers-review-section h5 {
+    font-weight: 400;
+}
+
+.customers-review-section .item {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.name-initial {
+    width: 50px;
+    height: 50px;
+    background: #5E3063;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* logos section */
+.logos-section img {
+    filter: grayscale(1);
+}
+
+/* sleepless nights section */
+.sleepless-nights-section {
+    background-image: url(../images/rem-bg-02.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+/* advisory-board section */
+.advisory-board-section .item {
+    border-radius: 10px;
+}
+
+.advisory-board-section img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* wear tech section */
+.wear-tech-section {
+    background-image: url(../images/rem-bg.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+.how-it-works {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px 10px;
+    height: 100%;
+}
+
+.how-it-works img {
+    filter: grayscale(1);
+}
+
+#version-2 .wear-tech-section {
+    background-image: none;
+    padding: 6rem 0;
+    background-color: #5e3063;
+}
+
+#version-2 .wear-tech-section h2 {
+    margin-bottom: 3rem;
+}
+
+/* faq section */
+.faq-section .accordion-item {
+    border: none;
+    margin-bottom: 12px;
+    border-radius: 10px !important;
+}
+
+.accordion-item .accordion-header .accordion-button {
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+    border-bottom-left-radius: var(--bs-accordion-inner-border-radius);
+    border-bottom-right-radius: var(--bs-accordion-inner-border-radius);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* cart modal */
+.cart-modal {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    color: #000;
+    z-index: 3;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid rgb(0 0 0 / 13%);
+    box-shadow: 0px 2px 10px 4px rgba(0, 0, 0, 0.125);
+    width: 100%;
+    max-width: 1322px;
+}
+
+.quantities .quantity-select {
+    cursor: pointer;
+}
+
+/* footer section */
+.footer-section .bi {
+    color: #828282
+}
+
+.footer-section a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* global */
+.stars {
+    color: #FBBC05;
+}
+
+.light-gray-bg {
+    background-color: #F7F7F7;
+}
+
+.btn-red {
+    background-color: #EF0C0C;
+    border-color: #EF0C0C;
+    color: #ffffff;
+    padding: 4px 40px;
+}
+
+.btn-red:hover,
+.btn-red:active {
+    background-color: #CC0000 !important;
+    border-color: #CC0000 !important;
+    color: #ffffff !important;
+}
+
+.owl-carousel .owl-stage {
+    display: flex;
+}
+
+.card-item {
+    height: 100%;
+}
+
+/* media queries */
+@media (max-width: 767px) {
+    .sleep-deeply-video-section {
+        background: url(../images/sleep-deeply-mobile.png) no-repeat center center;
+        background-size: cover;
+        padding: 5rem 0rem !important;
+    }
+
+    .jay-glazer-video-section {
+        padding: 22rem 0 0rem 0;
+        aspect-ratio: 1/1;
+    }
+
+    .jay-glazer-video-section .video-container {
+        aspect-ratio: 1/1;
+    }
+
+    .info-banner {
+        background-color: rgba(48, 48, 48, .4);
+    }
+
+    .banner {
+        background: url(../images/rem-hero-banner-mobile.jpg) no-repeat center center;
+    }
+
+    #version-2 .banner {
+        background: url(../images/Sleep_patch_mobile_01.jpg) no-repeat center center;
+    }
+
+    #version-2 .info-banner {
+        background-color: #313030;
+    }
+
+    #version-2 .info-banner p {
+        font-size: 80%;
+    }
+
+    #version-2 .header .superpatch-logo {
+        height: 45px;
+    }
+}
+
+@media (max-width: 992px) {
+    .banner-text {
+        padding: 8rem 2rem 4rem 2rem !important;
+    }
+
+    .info-text {
+        padding: 50px 10px;
+    }
+
+    .better-sleep-health .light-gray-bg {
+        background-color: transparent !important;
+    }
+
+    .sleepless-nights-section .owl-carousel .percentage {
+        font-size: 7rem;
+    }
+
+    .wear-tech-section {
+        background-image: none;
+        background-color: #5E3063;
+    }
+
+    .about-rem-section img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1.75;
+        object-position: center;
+        border-radius: 10px;
+    }
+
+    #version-2 .banner-text {
+        padding-top: 15vh !important;
+        padding-bottom: 15vh !important;
+    }
+
+    #version-2 .about-rem-section img {
+        aspect-ratio: 2 / 1.2;
+    }
+
+    #version-2 .wear-tech-section {
+        padding: 3rem 0;
+    }
+
+    #version-2 .rem-patch-section .add-to-cart-btn {
+        padding: 6px 0px;
+    }
+
+    #version-2 .rem-info p.small {
+        font-size: 1rem;
+    }
+
+    .jay-glazer-video-section .jay-glazer-video {
+        bottom: 2% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #version-2 .how-it-works {
+        padding: 20px 10px 0px 10px;
+    }
+
+    #version-2 .wear-tech-section p {
+        font-size: 14px;
+    }
+
+    #version-2 .rem-patch-bg {
+        display: flex;
+        align-items: end;
+    }
+}
+
+@media (min-width: 1400px) {
+    #version-2 .wear-tech-section .how-it-works img {
+        max-width: 60%;
+    }
+
+    #version-2 .sleep-deeply-video-section {
+        padding: 15rem 0rem;
+    }
+
+    #version-2 .logos-section img {
+        width: 60%;
+    }
+
+    #version-2 .jay-glazer-video-section {
+        margin-top: 5rem !important;
+    }
+
+}
